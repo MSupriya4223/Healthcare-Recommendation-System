@@ -1,7 +1,27 @@
 """
-Medical Recommendation System - API Backend for HTML Interface
-Specifically designed to work with the provided HTML inference demo
+Project: Healthcare Recommendation System API
+Author: Supriya Mandal, Madana Venkatesh & Biki Haldar
+Year: 2025
 """
+"""
+🏥 Healthcare Recommendation System
+==================================
+
+Welcome to the backend engine of the Healthcare Recommendation System!
+
+This API:
+• Validates user-provided symptoms
+• Predicts the most likely disease using a trained ML model
+• Provides useful recommendations (precautions, medications, diets, workouts)
+• Powers the frontend interface (`index.html`) through a clean JSON API
+
+Built with Flask + NumPy + Pandas, this backend is optimized for fast, reliable 
+health inference.
+
+⚠ Disclaimer:
+This tool is NOT a replacement for real medical diagnosis. Always consult a doctor.
+"""
+
 
 from flask import Flask, request, jsonify, send_file
 from flask_cors import CORS
@@ -265,7 +285,7 @@ def index():
         return send_file('inference_demo.html')
     except:
         return jsonify({
-            'message': 'Medical Recommendation API',
+            'message': 'Healthcare Recommendation API',
             'version': '1.0',
             'status': 'running',
             'endpoints': {
@@ -437,7 +457,7 @@ def internal_error(error):
 
 if __name__ == '__main__':
     print("\n" + "="*70)
-    print("🏥 MEDICAL RECOMMENDATION SYSTEM - API SERVER")
+    print("🏥 HEALTHCARE RECOMMENDATION SYSTEM - API SERVER")
     print("="*70)
     print("\nStarting server for HTML inference interface...")
     
