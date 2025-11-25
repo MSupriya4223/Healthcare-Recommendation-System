@@ -1,6 +1,7 @@
 """
 Project: Healthcare Recommendation System API
 Author: Supriya Mandal, Madana Venkatesh & Biki Haldar
+GitHub: [MSupriya4223](https://github.com/MSupriya4223)
 Year: 2025
 """
 """
@@ -496,3 +497,4 @@ if __name__ == '__main__':
         debug=False,  # Set to True only for development
         threaded=True
     )
+
