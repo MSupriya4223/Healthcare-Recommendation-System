@@ -5,4 +5,4 @@
 2025-11-19 01:46:02,738 - INFO - Loaded medications dataset: 41 records
 2025-11-19 01:46:02,764 - INFO - Loaded diets dataset: 41 records
 2025-11-19 01:46:02,793 - INFO - Loaded workout dataset: 410 records
-2025-11-19 01:46:37,165 - INFO - Predicted disease: Paralysis (brain hemorrhage) (code: 32)
+
