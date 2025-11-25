@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Medical Recommendation System</title>
+  <title>Healthcare Recommendation System</title>
   <style>
     :root{--bg:#0f1724;--card:#0b1220;--muted:#9aa4b2;--accent:#06b6d4}
     body{font-family:Inter,ui-sans-serif,system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; background: linear-gradient(180deg,#071226 0%, #071b2a 100%); color:#e6eef6; margin:0; padding:32px}
@@ -34,7 +34,7 @@
       <div class="card" style="padding:12px;display:flex;align-items:center;gap:12px">
         <svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2v6" stroke="#06b6d4" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M6 8v12" stroke="#06b6d4" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M18 8v10" stroke="#06b6d4" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M3 20h18" stroke="#06323a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
         <div>
-          <h1>Medical Recommendation System</h1>
+          <h1>Healthcare Recommendation System</h1>
           <div class="small">Enter symptoms, validate them locally and send to inference API (or use Mock Mode).</div>
         </div>
       </div>
@@ -59,8 +59,8 @@
 
           <div style="margin-top:12px;">
             <label for="apiURL">Backend API URL (POST)</label>
-            <input id="apiURL" type="text" value="http://localhost:5000/predict"> 
-            <div class="small" style="margin-top:6px">If mock mode is on the page will not call backend. If you run the Python script, point this to your server endpoint (e.g. http://localhost:5000/predict).</div>
+            <input id="apiURL" type="text" value="http://localhost:5000/api/predict"> 
+            <div class="small" style="margin-top:6px">If mock mode is on the page will not call backend. If you run the Python script, point this to your server endpoint (e.g. http://localhost:5000/api/predict).</div>
           </div>
 
           <div style="margin-top:12px;display:flex;gap:8px">
