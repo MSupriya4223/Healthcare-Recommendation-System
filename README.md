@@ -158,5 +158,6 @@ Always consult licensed healthcare providers for medical advice.
 ## ❤️ Credits
 
 Developed by **Supriya Mandal, Madana Venkatesh & Biki Haldar**
-GitHub: [MSupriya4223](https://github.com/MSupriya4223)
+<br>GitHub: [MSupriya4223](https://github.com/MSupriya4223)
+---
 All rights reserved.
