@@ -1,7 +1,27 @@
 """
-Medical Recommendation System - Inference Script
-A robust command-line tool for disease prediction with comprehensive error handling
+Project: Healthcare Recommendation System API
+Author: Supriya Mandal
+Year: 2025
 """
+"""
+🏥 Healthcare Recommendation System
+==================================
+
+Welcome to the backend engine of the Healthcare Recommendation System!
+
+This API:
+• Validates user-provided symptoms
+• Predicts the most likely disease using a trained ML model
+• Provides useful recommendations (precautions, medications, diets, workouts)
+• Powers the frontend interface (`index.html`) through a clean JSON API
+
+Built with Flask + NumPy + Pandas, this backend is optimized for fast, reliable 
+health inference.
+
+⚠ Disclaimer:
+This tool is NOT a replacement for real medical diagnosis. Always consult a doctor.
+"""
+
 
 import numpy as np
 import pandas as pd
@@ -325,7 +345,7 @@ class MedicalInferenceSystem:
             invalid_symptoms: List of invalid symptoms
         """
         print("\n" + "="*70)
-        print("MEDICAL RECOMMENDATION SYSTEM - INFERENCE RESULTS")
+        print("HEALTHCARE RECOMMENDATION SYSTEM - INFERENCE RESULTS")
         print("="*70)
         
         # Display warnings
@@ -419,7 +439,7 @@ def main():
     Main function for command-line usage
     """
     print("\n" + "="*70)
-    print("MEDICAL RECOMMENDATION SYSTEM - INFERENCE TOOL")
+    print("HEALTHCARE RECOMMENDATION SYSTEM - INFERENCE TOOL")
     print("="*70)
     
     # Initialize system
